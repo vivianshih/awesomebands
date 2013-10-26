@@ -1,0 +1,71 @@
+body {
+    background: url(../images/bg.png) repeat left top;
+    font-family: 'Helvetica', sans-serif;
+    line-height: 100%;
+}
+
+#logo {
+    margin: 112px auto 20px auto;
+    width: 600px;
+    height: 100px;
+    background: url(../images/logo.png) no-repeat top center;
+}
+
+#wrapper {
+    background: rgba(29,29,29,0.9);
+    margin: 0 auto;
+    width: 442px;
+    border: 5px solid #d0cfcf;
+    border-radius: 20px;
+}
+
+#wrapper table {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    color: #ffffff;
+    height: 12px;
+}
+
+
+#wrapper table tr td {
+    border-bottom: 1px solid rgba(255,255,255,0.15);/* Row Border */
+}
+
+#wrapper table tr:last-child td {
+    border-bottom: none;                            /* Remove border for last row */
+}
+
+#wrapper table tr td:first-child {
+    width: 180px;
+    padding: 12px 0 11px 30px;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+#wrapper table tr:last-child td {
+    padding-bottom: 12px;                           /* Padding adjustment to match .psd */
+}
+
+#wrapper table tr:first-child td {
+    padding-top: 14px;                              /* Padding adjustment to match .psd */
+}
+
+#wrapper table tr td:last-child {
+    width: 150px;
+    padding: 13px 30px 8px 0;
+    text-align: right;
+    font-size: 13px;
+    font-weight: 300;
+    color: rgba(255,255,255,0.7);
+    letter-spacing: 0.5pt;
+}
+
+.count {
+    font-size: 18px;
+    color: #9e0b0f;
+    font-weight: 500;
+    padding-right: 3px;
+}
